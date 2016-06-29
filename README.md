@@ -31,7 +31,7 @@ Also, in `javacs-lab05`, you'll find the Ant build file `build.xml`.  If you run
 
 ## `Iterables` and `Iterators`
 
-In the previous README, we presented an iterative depth-first search (DFS), and suggested that an advantage of the iterative version, compared to the recursive version, it that it is easier to wrap in an `Iterator` object.  In this section we'll see how to do that.
+In the previous README, we presented an iterative depth-first search (DFS), and suggested that an advantage of the iterative version, compared to the recursive version, is that it is easier to wrap in an `Iterator` object.  In this section we'll see how to do that.
 
 If you are not familiar with the `Iterator` and `Iterable` interfaces, you can read about them [here](https://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html) and [here](https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html).
 
@@ -51,7 +51,7 @@ The implementation of WikiNodeIterable follows a conventional formula:
 
 1. The constructor takes and stores a reference to the root `Node`.
 
-2. The `iterator` method creates a returns an `Iterator` object.
+2. The `iterator` method creates and returns an `Iterator` object.
 
 Here's what it looks like:
 
@@ -233,3 +233,5 @@ Ok, that's all the help you're going to get from us.  Now it's up to you.  Have 
 [Iterable](https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html): Java documentation.
 
 [Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern): Wikipedia.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/cs-wikipedia-philosophy-lab'>Wikipedia Philosophy Lab</a> on Learn.co and start learning to code for free.</p>
